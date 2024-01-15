@@ -33,7 +33,7 @@ function createGrid(size) {
 
   const squares = document.querySelectorAll(".col");
   for (const square of squares) {
-    dimensions = 500 / size;
+    dimensions = grid.clientHeight / size;
     square.style.height = `${dimensions}px`;
     square.style.width = `${dimensions}px`;
     square.style.opacity = 0;

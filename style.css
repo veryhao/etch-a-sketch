@@ -19,8 +19,8 @@ body {
 }
 
 .grid {
-  height: 504px;
-  width: 504px;
+  height: 404px;
+  width: 404px;
   border: 2px solid black;
 }
 
@@ -47,4 +47,11 @@ button {
 
 button:hover {
   transform: scale(1.05);
+}
+
+@media (max-width: 650px) {
+  .grid {
+    width: 304px;
+    height: 304px;
+  }
 }
